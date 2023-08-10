@@ -1,0 +1,174 @@
+/*COMMON*/
+.promotion {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #333;
+}
+.promotion a {
+  text-decoration: none;
+}
+.promotion img {
+  /* img(인라인 요소) 하단에 Baseline 공백을 제거 */
+  display: block;
+}
+
+/*INNER*/
+.promotion .inner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.promotion .bg--center {
+  max-width: 1920px;
+  min-width: 1200px;
+  background: center top;
+}
+
+/* INPUT */
+.promotion .input--text {
+  width: 100%;
+  height: 72px;
+  background-color: #f9f9f9;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 28px;
+  text-align: center;
+}
+
+
+
+/* 신청 정보 */
+/* 담당자 정보 */
+.promotion .form {
+  width: 1056px;
+  background: #fff;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  border-top: none;
+  margin: 0 auto;
+  padding: 100px 100px;
+}
+.promotion .form ul {
+  padding-bottom: 20px;
+}
+.promotion .form ul li {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 0 10px;
+}
+.promotion .form ul li h3 {
+  width: 400px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.promotion .form span {
+  color: #1cc5b2;
+}
+.promotion .form ul li h3 p {
+  font-size: 16px;
+  font-weight: normal;
+  color: #7e7e7e;
+}
+.promotion .form ul li > p {
+  padding-left: 270px;
+  font-size: 16px;
+  color: #7e7e7e;
+  letter-spacing: -0.4px;
+}
+
+/* 개인정보 수집 */
+.promotion .form .agree {
+  background: #f3f3f3;
+  padding: 30px;
+  position: relative;
+}
+.promotion .form .agree input[type="checkbox"] {
+  position: absolute;
+  left: -3000px;
+}
+.promotion .form .agree input[type="checkbox"] + label {
+  padding-left: 36px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 26px;
+}
+.promotion .form .agree input[type="checkbox"] + label:before {
+  content: "";
+  position: absolute;
+  left: 30px;
+  width: 26px;
+  height: 26px;
+  border: 2px solid #333;
+  background: #fff;
+  box-sizing: border-box;
+}
+.promotion .form .agree input[type="checkbox"]:checked + label:before {
+  background:  url(../img/ck_on.png) no-repeat center #333;
+}
+.form .agree > div {
+  margin: 40px 0;
+}
+.promotion .form .agree > div:first-child, .promotion .form .agree > div:last-child {
+  margin: 6px 0;
+}
+.promotion .form .agree .agree__table {
+  width: 100%;
+  margin: 10px 0;
+}
+.promotion .form .agree .agree__table col {
+  width: 33.333%;
+}
+.promotion .form .agree .agree__table th,
+.promotion .form .agree .agree__table td {
+  border: 1px solid #d4d4d4;
+}
+.promotion .form .agree .agree__table th {
+  background: #f9f9f9; 
+  font-size: 16px; 
+  color: #2b2b2b; 
+  line-height: 28px; 
+  text-align: center;
+}
+.promotion .form .agree .agree__table td {
+  padding: 15px 16px; 
+  background: #fff; 
+  font-size: 16px; 
+  color: #676767; 
+  letter-spacing: -1.5px;             
+  vertical-align: top; 
+  text-align: center;
+}
+.promotion .form .agree .agree__table td.bigLetter {
+  font-size: 20px; font-weight: bold;
+}
+.promotion .form > p {
+  text-align: center;
+  padding-top: 10px;
+}
+.promotion .join {
+  padding-top: 40px;
+}
+.promotion .join a {
+  display: block;
+  width: 346px;
+  height: 103px;
+  background-image: url("../img/btn.png");
+  margin: auto;
+}
+
+/* footer */
+.promotion .footer ul {
+  display: flex;
+  padding: 70px;
+}
+.promotion .footer ul li {
+  line-height: 24px;
+}
+.promotion .footer ul li:last-child {
+  padding-left: 40px;
+}
+.promotion .jum {display: inline; color: #21966d;}
